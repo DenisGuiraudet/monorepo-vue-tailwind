@@ -6,6 +6,10 @@
     "apps/*",
     "libs/*"
   ],
+  "scripts": {
+    "admin": "nx dev @guidap/admin",
+    "admin:demo": "nx build @guidap/admin && nx preview @guidap/admin"
+  },
   "dependencies": {
     "vue": "^3.3.4"
   },
