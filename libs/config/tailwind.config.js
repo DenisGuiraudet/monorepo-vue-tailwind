@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  presets: [require('@guidap/config/tailwind.config.js')]
+  content: [],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }
 

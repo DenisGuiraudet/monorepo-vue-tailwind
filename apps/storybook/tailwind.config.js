@@ -4,9 +4,9 @@ const path = require('path');
 module.exports = {
   presets: [require('@guidap/config/tailwind.config.js')],
   content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    // "./index.html",
+    // "./src/**/*.{vue,js,ts,jsx,tsx}",
     path.join(path.dirname(require.resolve('@guidap/ui')), '**/*.{vue,js,ts,jsx,tsx}'),
-  ],
+  ]
 }
 

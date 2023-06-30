@@ -16,6 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@guidap/config": "*"
   },
   "devDependencies": {
     "@vue/test-utils": "^2.3.2",
