@@ -1,14 +1,3 @@
 {
-  "files": [],
-  "references": [
-    {
-      "path": "../config/tsconfig.node.json"
-    },
-    {
-      "path": "../config/tsconfig.app.json"
-    },
-    {
-      "path": "../config/tsconfig.vitest.json"
-    }
-  ]
+  "extends": "@guidap/config/tsconfig.json",
 }
