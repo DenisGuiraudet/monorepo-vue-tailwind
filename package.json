@@ -12,6 +12,7 @@
     "storybook": "nx storybook @guidap/storybook"
   },
   "dependencies": {
+    "@guidap/config": "*",
     "vue": "^3.3.4"
   },
   "devDependencies": {
