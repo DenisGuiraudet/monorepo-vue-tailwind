@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "admin": "nx dev @guidap/admin",
-    "admin:demo": "nx build @guidap/admin && nx preview @guidap/admin"
+    "admin:demo": "nx build @guidap/admin && nx preview @guidap/admin",
+    "storybook": "nx storybook @guidap/storybook"
   },
   "dependencies": {
     "vue": "^3.3.4"
