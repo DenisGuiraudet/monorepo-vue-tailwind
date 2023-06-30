@@ -11,8 +11,8 @@ import { HelloWorld } from '@guidap/ui'
       <HelloWorld msg="You did it!" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink class="text-3xl font-bold underline" to="/">Home</RouterLink>
+        <RouterLink class="text-cyan-300" to="/about">About</RouterLink>
       </nav>
     </div>
   </header>
